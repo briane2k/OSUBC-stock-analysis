@@ -26,7 +26,7 @@ The most concise explaination is (see attached images of code snippets)Old Code 
 
 ![Old_Code_Nested_Loop_12x3012.png](/Resources/Old_Code_Nested_Loop_12x3012.png)
 
-![new_code_simply_one_Loop_12.png](/Resources/new_code_simply_one_Loop%2012.png)
+![new_code_simply_one_Loop_12.png](/Resources/new_code_simply_one_Loop_12.png)
 
 The old code had 2 loops, one nested in the 2nd, the first loop had 12 elements, and the inside loop had 3012, for a total of 36,144
 
