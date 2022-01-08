@@ -1,18 +1,22 @@
-Analysis of Green-Stocks-Analysis Code Refactoring
+#Analysis of Green-Stocks-Analysis Code Refactoring
+
   This Analysis is to see if refactoring the code summarizing the Green Stocks dataset improves its performace, as measured by run time.
+  
   Although some varience was observed in repeated run times between Old Code to Old Code, and Refactored Code to Refactored Code, this is not in the scope of this analysis, it may however be due to available resources of the PC the Code was run on.
 Ignoring this it is still evident that this Example of Code refactoring does positivly impact code performance.
 See Image 
-	Old Code 2017.png(0.9609375)  <<-->>  VBA_Challenge_2017.png(0.1015625)   x 9.462 LESS
+	![Old Code 2017.png](/resources/Old%20Code%202017.png)(0.9609375)  <<-->>  
+	[VBA_Challenge_2017.png](/resources/VBA_Challenge_2017.png)(0.1015625)   x 9.462 LESS
 and
-	Old Code 2018.png(1.132813)  <<-->>  VBA_Challenge_2018.png(0.109375)	x 10.357 LESS
+	[Old Code 2018.png](/resources/Old%20Code%202018.png)(1.132813)  <<-->>  
+	[VBA_Challenge_2018.png](/resources/VBA_Challenge_2018.png)(0.109375)	x 10.357 LESS
 
 I believe this indicates refactoring was successfull.
 The most concise explaination is (see attached images)
-<< Old Code Nested Loop 12x3012.png >>
-<< new code simply one Loop 12.png >>
+[Old Code Nested Loop 12x3012.png](/resources/Old%20Code%20Nested%20Loop%2012x3012.png)
+[new code simply one Loop 12.png](/resources/new%20code%20simply%20one%20Loop%2012.png)
 
-the old code had 2 loops, one nested in the 2nd, the first loop had 12 elements, and the inside loop had 3012, for a total of 36,144
+The old code had 2 loops, one nested in the 2nd, the first loop had 12 elements, and the inside loop had 3012, for a total of 36,144
 
 the new code has just 3,012
 There is very little difference between the 2017 metrics and the 2018 metrics.
